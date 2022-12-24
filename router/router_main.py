@@ -11,6 +11,9 @@ from Json import Data3 as data3
 
 router = APIRouter()
 
+@router.get("/")
+def get():
+    return "Hello ResFulAPI"
 
 # Get predict of can ho - chung cu
 @router.post("/flat/predict")
