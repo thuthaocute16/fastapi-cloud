@@ -18,7 +18,7 @@ from sklearn.model_selection import GridSearchCV
 
 # GET THE DATA (DONE). LOAD DATA
 
-data = pd.read_csv('CanHo_ChungCu.csv')
+data = pd.read_csv("CanHo_ChungCu.csv")
 
 '''
 # DISCOVER THE DATA TO GAIN INSIGHTS
