@@ -1,0 +1,101 @@
+﻿STT,Năm,Nhu cầu,Quận,Phường,Đường,Diện tích - m2,Mức giá - Tỷ,Số lầu,Hướng nhà,Hướng ban công,Mặt tiền - m,Nội thất,Đường vào - m,Số phòng ngủ,Số toilet,Pháp lý
+1,2022,Cần bán,Quận 1,Phạm Ngũ Lão,Nguyễn Thị Minh Khai,100,50,6,,,7,,,,,
+2,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Bỉnh Khiêm,64.8,15,3,Tây - Bắc,Tây - Bắc,,Cơ bản,300,3,3,Sổ đỏ/ Sổ hồng
+3,2022,Cần bán,Quận 1,Tân Định,Võ Thị Sáu,51.8,23,4,,,,Cơ bản,,,,Sổ đỏ/ Sổ hồng
+4,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,136.8,49,6,Nam,Nam,8,,10,10,10,Sổ đỏ/ Sổ hồng
+5,2022,Cần bán,Quận 1,Cầu Kho,Nguyễn Cảnh Chân,40,6.5,3,,,4,,,3,3,
+6,2022,Cần bán,Quận 1,Bến Thành,Lý Tự Trọng,100,22.5,4,Đông - Nam,Đông - Nam,5,,,4,3,Sổ đỏ/ Sổ hồng
+7,2022,Cần bán,Quận 1,Bến Thành,Lý Tự Trọng,68,26,4,,,,,,,,
+8,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Nguyễn Trãi,66.4,15,4,,,,,,10,10,
+9,2022,Cần bán,Quận 1,Tân Định,Nguyễn Văn Nguyễn,65.45,27,6,Đông - Bắc,,7,,,5,5,Sổ đỏ/ Sổ hồng
+10,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Bỉnh Khiêm,80,38,,,,,,,,,Sổ đỏ/ Sổ hồng
+11,2022,Cần bán,Quận 1,Tân Định,Hoàng Sa,53.8,27,5,Tây - Bắc,Đông - Nam,6,Trống,3,8,6,Sổ đỏ/ Sổ hồng
+12,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,200,68,4,,,,,,,,
+13,2022,Cần bán,Quận 1,Bến Thành,,38,18.9,6,,,,Cơ bản,,4,4,Sổ đỏ/ Sổ hồng
+14,2022,Cần bán,Quận 1,Cô Giang,Hồ Hảo Hớn,69,27.5,4,,,20,,20,6,6,
+15,2022,Cần bán,Quận 1,Bến Nghé,Lê Thánh Tôn,63,66,4,Tây - Bắc,,7,Đầy đủ,60,3,4,Sổ đỏ/ Sổ hồng
+16,2022,Cần bán,Quận 1,Bến Nghé,Lê Thánh Tôn,92.4,120,8,,,,,,,,Sổ đỏ/ Sổ hồng
+17,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Trần Hưng Đạo,160,73,7,,,,,,8,8,Sổ đỏ/ Sổ hồng
+18,2022,Cần bán,Quận 1,Cô Giang,Nguyễn Khắc Nhu,54,20,,,,,,,,,
+19,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Nguyễn Trãi,154.86,92.92,,Tây - Nam,,5,,5,,,
+20,2022,Cần bán,Quận 1,Bến Nghé,Lý Tự Trọng,245,158,1,Đông - Nam,,12,,16,1,1,Sổ đỏ/ Sổ hồng
+21,2022,Cần bán,Quận 1,Bến Nghé,Lê Thánh Tôn,56,60,4,,,,Trống,,,,Sổ đỏ/ Sổ hồng
+22,2022,Cần bán,Quận 1,Đa Kao,Hai Bà Trưng,180,45,4,,,,,,,,Sổ đỏ/ Sổ hồng
+23,2022,Cần bán,Quận 1,Bến Nghé,Lý Tự Trọng,46.54,25,,,,,,,,,
+24,2022,Cần bán,Quận 1,Bến Nghé,Lý Tự Trọng,80,25,,,,,Đầy đủ,,8,,Sổ đỏ/ Sổ hồng
+25,2022,Cần bán,Quận 1,Bến Nghé,Lý Tự Trọng,153,55,4,,,,,,,,
+26,2022,Cần bán,Quận 1,Bến Nghé,Lê Thánh Tôn,170,300,10,,,,Cơ bản,,14,15,Sổ đỏ/ Sổ hồng
+27,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Phạm Viết Chánh,375,43,,,,,,,1,1,Sổ đỏ/ Sổ hồng
+28,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Trần Hưng Đạo,50,37,1,,,,,,,,
+29,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Trần Hưng Đạo,360,168,4,Đông - Nam,Đông - Nam,,,,,,
+30,2022,Cần bán,Quận 1,Cầu Kho,Nguyễn Cảnh Chân,43.5,10.2,2,,,,,,3,4,
+31,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,36,5.2,3,,,4,,3,3,3,
+32,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Văn Thủ,70.52,35,7,,,,Cơ bản,,,,Sổ đỏ/ Sổ hồng
+33,2022,Cần bán,Quận 1,Bến Thành,,152.2,55,4,Đông - Bắc,Đông - Bắc,6,Đầy đủ,6,6,7,Sổ đỏ/ Sổ hồng
+34,2022,Cần bán,Quận 1,Phạm Ngũ Lão,Đề Thám,69.05,45,2,Đông - Bắc,,,,,,,
+35,2022,Cần bán,Quận 1,Tân Định,Trần Khắc Chân,300,115,4,Nam,Nam,15,,14,6,,Sổ đỏ/ Sổ hồng
+36,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Cống Quỳnh,102,16,2,,,9,Cơ bản,5,5,5,Sổ đỏ/ Sổ hồng
+37,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Nguyễn Cư Trinh,690,549,22,,,,,,22,40,
+38,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,73.1,22.5,3,,,4.3,Đầy đủ,20,3,3,Sổ đỏ/ Sổ hồng
+39,2022,Cần bán,Quận 1,Tân Định,Hai Bà Trưng,249,91,8,,,,,,22,24,
+40,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Đình Chiểu,158,40,6,,,,,,,,Sổ đỏ/ Sổ hồng
+41,2022,Cần bán,Quận 1,Tân Định,Đặng Dung,84,19,4,,,,,,,,Sổ đỏ/ Sổ hồng
+42,2022,Cần bán,Quận 1,Tân Định,Đinh Công Tráng,106.4,24,,,,,,,,,Sổ đỏ/ Sổ hồng
+43,2022,Cần bán,Quận 1,Tân Định,Hai Bà Trưng,55,12,5,,,,,,5,5,Sổ đỏ/ Sổ hồng
+44,2022,Cần bán,Quận 1,Bến Nghé,Nguyễn Bỉnh Khiêm,75,15,6,,,,Đầy đủ,,,,Sổ đỏ/ Sổ hồng
+45,2022,Cần bán,Quận 1,Tân Định,Đặng Dung,99,15,4,,,,,,8,,Sổ đỏ/ Sổ hồng
+46,2022,Cần bán,Quận 1,Đa Kao,Mạc Đĩnh Chi,57,15.5,4,,,,,,3,3,Sổ đỏ/ Sổ hồng
+47,2022,Cần bán,Quận 1,Cô Giang,Hồ Hảo Hớn,80,22,4,,,,,,,,Sổ đỏ/ Sổ hồng
+48,2022,Cần bán,Quận 1,Tân Định,Trần Khắc Chân,57,13.5,4,,,,,,,,Sổ đỏ/ Sổ hồng
+49,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Thị Minh Khai,56,10,,,,,,,,,
+50,2022,Cần bán,Quận 1,Đa Kao,Đinh Tiên Hoàng,67.5,14,4,,,,,,,,Sổ đỏ/ Sổ hồng
+51,2022,Cần bán,Quận 1,Nguyễn Thái Bình,Hàm Nghi,136,180,3,,,,,,5,4,Sổ đỏ/ Sổ hồng
+52,2022,Cần bán,Quận 1,Tân Định,Trần Nhật Duật,64,21,,,,,,,,,Sổ đỏ/ Sổ hồng
+53,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Bỉnh Khiêm,70,17,,,,,,,,,Sổ đỏ/ Sổ hồng
+54,2022,Cần bán,Quận 1,Bến Nghé,Lý Tự Trọng,152,54.8,4,,,8.5,Cơ bản,,,,Sổ đỏ/ Sổ hồng
+55,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Văn Thủ,299,89.8,4,,,11,,,,,Sổ đỏ/ Sổ hồng
+56,2022,Cần bán,Quận 1,Tân Định,Trần Nhật Duật,55,11.4,,,,4,,15,,,Sổ đỏ/ Sổ hồng
+57,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Bỉnh Khiêm,80,19,3,,,,,,,,Sổ đỏ/ Sổ hồng
+58,2022,Cần bán,Quận 1,Nguyễn Thái Bình,Lê Thị Hồng Gấm,110,110,7,,,,,,,,Sổ đỏ/ Sổ hồng
+59,2022,Cần bán,Quận 1,Tân Định,Thạch Thị Thanh,96,12.5,5,,,8,,,,,Sổ đỏ/ Sổ hồng
+60,2022,Cần bán,Quận 1,Tân Định,Hai Bà Trưng,110.4,39,6,,,4.8,,,,,Sổ đỏ/ Sổ hồng
+61,2022,Cần bán,Quận 1,Bến Nghé,Lý Tự Trọng,72,26,5,,,4,,,,,Sổ đỏ/ Sổ hồng
+62,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,50,14,5,,,5,,,,,Sổ đỏ/ Sổ hồng
+63,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Đình Chiểu,100,26,4,,,10,,,,,Sổ đỏ/ Sổ hồng
+64,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Nguyễn Trãi,228,75,7,,,12,Đầy đủ,6,30,30,Sổ đỏ/ Sổ hồng
+65,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Nguyễn Cảnh Chân,81,20.2,4,,,5.7,,8,5,4,Sổ đỏ/ Sổ hồng
+66,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Nguyễn Cư Trinh,110,28,4,,,4.2,Đầy đủ,30,5,4,Sổ đỏ/ Sổ hồng
+67,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,243,75,,,,,,,,,
+68,2022,Cần bán,Quận 1,Cô Giang,Cô Bắc,119,44,7,,,4.2,,,,,
+69,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Trần Hưng Đạo,73,32,3,,,,,,,,
+70,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,72,20,8,,,4.5,,,,,Sổ đỏ/ Sổ hồng
+71,2022,Cần bán,Quận 1,Cô Giang,Võ Văn Kiệt,300,155,6,,,12,,,7,8,Sổ đỏ/ Sổ hồng
+72,2022,Cần bán,Quận 1,Tân Định,Võ Thị Sáu,51.8,25,3,,,,,,,,Sổ đỏ/ Sổ hồng
+73,2022,Cần bán,Quận 1,Cô Giang,Trần Đình Xu,38.4,6.8,1,,,4,,,,,
+74,2022,Cần bán,Quận 1,Bến Nghé,Lê Thánh Tôn,28.3,5.8,5,,,1.2,,,,,
+75,2022,Cần bán,Quận 1,Tân Định,Nguyễn Phi Khanh,144.8,34.5,5,,,20,,10,12,15,Sổ đỏ/ Sổ hồng
+76,2022,Cần bán,Quận 1,Tân Định,Trần Khắc Chân,226.5,89,12,,,14,,,,,Sổ đỏ/ Sổ hồng
+77,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Trần Hưng Đạo,295,105,,,,15.9,,,,,Sổ đỏ/ Sổ hồng
+78,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,72,20.5,3,,,4.5,Đầy đủ,,,,Sổ đỏ/ Sổ hồng
+79,2022,Cần bán,Quận 1,Tân Định,Trần Nhật Duật,200,90,,,,10,,,,,Sổ đỏ/ Sổ hồng
+80,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Trần Hưng Đạo,295,105,,,,15.9,,,,,Sổ đỏ/ Sổ hồng
+81,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,72,20.5,3,,,4.5,Đầy đủ,,,,Sổ đỏ/ Sổ hồng
+82,2022,Cần bán,Quận 1,Bến Thành,Hàm Nghi,136,180,3,,,8,Đầy đủ,,6,4,Sổ đỏ/ Sổ hồng
+83,2022,Cần bán,Quận 1,Tân Định,Võ Thị Sáu,74,25,4,,,4.4,Đầy đủ,,,,Sổ đỏ/ Sổ hồng
+84,2022,Cần bán,Quận 1,Cầu Kho,Trần Hưng Đạo,56.4,15,3,,,4.7,,,,,
+85,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,38,5.8,3,,,5,Đầy đủ,,2,3,Sổ đỏ/ Sổ hồng
+86,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Trần Đình Xu,90,28.5,3,,,5,,,,,Sổ đỏ/ Sổ hồng
+87,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Phạm Viết Chánh,86,15,4,,,4,Trống,8,3,,Sổ đỏ/ Sổ hồng
+88,2022,Cần bán,Quận 1,Bến Thành,Hàm Nghi,72,75,6,,,7.2,,,,,
+89,2022,Cần bán,Quận 1,Nguyễn Cư Trinh,Nguyễn Trãi,250,115,9,,,10,,,,,Sổ đỏ/ Sổ hồng
+90,2022,Cần bán,Quận 1,Bến Thành,Lê Thánh Tôn,90.3,59,5,,,4.3,,,,,Sổ đỏ/ Sổ hồng
+91,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Đình Chiểu,121,18.8,3,,,,,,,,Sổ đỏ/ Sổ hồng
+92,2022,Cần bán,Quận 1,Bến Nghé,Nguyễn Thị Minh Khai,110,17,3,,,8.2,,,,,Sổ đỏ/ Sổ hồng
+93,2022,Cần bán,Quận 1,Bến Nghé,Lê Thánh Tôn,80,26,5,,,8,,,,,Sổ đỏ/ Sổ hồng
+94,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Thị Minh Khai,66,13.9,5,,,5,,,,,Sổ đỏ/ Sổ hồng
+95,2022,Cần bán,Quận 1,Bến Nghé,Nguyễn Trung Ngạn,99.2,30.5,6,,,6.2,Đầy đủ,,,,Sổ đỏ/ Sổ hồng
+96,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,88,27,6,,,4.2,,,,,Sổ đỏ/ Sổ hồng
+97,2022,Cần bán,Quận 1,Đa Kao,Điện Biên Phủ,90,22,3,,,4,,,,,Sổ đỏ/ Sổ hồng
+98,2022,Cần bán,Quận 1,Đa Kao,Nguyễn Thành Ý,51.5,16.8,1,,,3.7,,,2,2,Sổ đỏ/ Sổ hồng
+99,2022,Cần bán,Quận 1,Tân Định,Trần Quang Khải,76.1,30.3,4,,,3.9,,,5,8,Sổ đỏ/ Sổ hồng
+100,2022,Cần bán,Quận 1,Tân Định,Hai Bà Trưng,165,62,2,,,7.5,,,,,
