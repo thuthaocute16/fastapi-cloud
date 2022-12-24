@@ -18,7 +18,7 @@ from sklearn.model_selection import GridSearchCV
 
 # GET THE DATA (DONE). LOAD DATA
 
-data = pd.read_csv("CanHo_ChungCu.csv")
+#data = pd.read_csv("CanHo_ChungCu.csv")
 
 '''
 # DISCOVER THE DATA TO GAIN INSIGHTS
@@ -91,8 +91,6 @@ data.drop(columns = ["DIỆN TÍCH PHÒNG", "TỔNG SỐ PHÒNG"], inplace=True)
 
 # PREPARE THE DATA 
 
-'''
-
 # 4.1 Remove unused features
 data.drop(columns = ["STT", "Nhu cầu"], inplace=True) 
 
@@ -140,12 +138,9 @@ elif method == 2:
         #_set_.drop("income_cat", axis=1, inplace=True) # axis=1: drop cols, axis=0: drop rows
         _set_.drop(columns="KHOẢNG GIÁ", inplace=True) 
     
-
-'''
 print('\n____________ Split training and test set ____________')     
 print(len(train_set), "training +", len(test_set), "test examples")
 print(train_set.head(4))
-'''
 
 # 4.3 Separate labels from data, since we do not process label values
 
@@ -211,14 +206,14 @@ full_pipeline = FeatureUnion(transformer_list=[
 
 # 4.5 Run the pipeline to process training data           
 processed_train_set_val = full_pipeline.fit_transform(train_set)
-'''
+
 print('\n____________ Processed feature values ____________')
 print(processed_train_set_val[[0, 1, 2],:].toarray())
 print(processed_train_set_val.shape)
 print('We have %d numeric feature + 1 added features + 35 cols of onehotvector for categorical features.' %(len(num_feat_names)))
 
 joblib.dump(full_pipeline, r'models/full_pipeline.pkl')
-'''
+
 
 param_grid = [
             # try 12 (3x4) combinations of hyperparameters (bootstrap=True: drawing samples with replacement)
@@ -227,7 +222,7 @@ param_grid = [
             {'bootstrap': [False], 'n_estimators': [3, 5, 10, 20], 'max_features': [2, 6, 10]} ]
 
 # TRAIN AND EVALUATE MODELS
-'''
+
 forest_reg = RandomForestRegressor(random_state=42)
 grid_search = GridSearchCV(forest_reg, param_grid, cv=5, scoring='neg_mean_squared_error', return_train_score=True)
 
@@ -248,13 +243,13 @@ def load_model(model_name):
 
 #store_model(final_model)
 final_model = load_model("RandomForestRegressor")
-
+full_pipeline = joblib.load('models/full_pipeline.pkl')
+'''
 # Prediction
 some_data = train_set.iloc[:5]
 some_labels = train_set_labels.iloc[:5]
 some_data_prepared = full_pipeline.transform(some_data)
 
-'''
 # Prediction 5 samples 
 print("Predictions:", final_model.predict(some_data_prepared))
 print("Labels:", list(some_labels))
