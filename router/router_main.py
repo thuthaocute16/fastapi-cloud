@@ -19,6 +19,8 @@ def get():
 @router.post("/flat/predict")
 async def getPredict1(data: data1.CanHo_Chungcu):
 
+    print(data)
+    
     DataPredict = data1.CanHo_Chungcu()
 
     DataPredict.Year = data.Year
