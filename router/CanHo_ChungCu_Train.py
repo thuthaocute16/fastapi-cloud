@@ -230,6 +230,15 @@ grid_search.fit(processed_train_set_val, train_set_labels)
 
 final_model = grid_search.best_estimator_'''
 
+
+class ColumnSelector(BaseEstimator, TransformerMixin):
+    def __init__(self, feature_names):
+        self.feature_names = feature_names
+    def fit(self, dataframe, labels=None):
+        return self
+    def transform(self, dataframe):
+        return dataframe[self.feature_names].values 
+        
 def store_model(model, model_name = ""):
     if model_name == "": 
         model_name = type(model).__name__
