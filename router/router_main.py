@@ -20,7 +20,7 @@ def get():
 async def getPredict1(data: data1.CanHo_Chungcu):
 
     print(data)
-    
+
     DataPredict = data1.CanHo_Chungcu()
 
     DataPredict.Year = data.Year
@@ -60,8 +60,7 @@ async def getPredict1(data: data1.CanHo_Chungcu):
 
     Predict_Result = CanHo_ChungCu_Train.predict_input_user(_data)
 
-    return Predict_Result.tolist()[0]
-
+    return Predict_Result
 '''
 # Get predict of can ho - chung cu
 @router.post("/house/predict")

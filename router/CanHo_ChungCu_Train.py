@@ -302,6 +302,6 @@ def predict_input_user(data):
         sample = pd.DataFrame(data=data,index=row_label)
         sample_prepared = full_pipeline.transform(sample_prepared)
 
-        return final_model.predict(sample_prepared)
+        return final_model.predict(sample_prepared).tolist()[0]
     except Exception as e:
-        return [8.15]
+        return 8.15
