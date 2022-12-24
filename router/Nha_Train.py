@@ -20,7 +20,7 @@ from sklearn.model_selection import GridSearchCV
 
 # GET THE DATA (DONE). LOAD DATA
 
-data = pd.read_csv('data/Nha.csv')
+#data = pd.read_csv('data/Nha.csv')
 
 # DISCOVER THE DATA TO GAIN INSIGHTS
 # 3.1 Quick view of the data
