@@ -9,8 +9,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.impute import SimpleImputer  
 from sklearn.preprocessing import OneHotEncoder      
-from sklearn.model_selection import KFold   
-from statistics import mean
 import joblib 
 
 from sklearn.ensemble import RandomForestRegressor
