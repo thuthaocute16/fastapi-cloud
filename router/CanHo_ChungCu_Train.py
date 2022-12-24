@@ -282,6 +282,7 @@ def load_model(model_name):
 
 #store_model(final_model)
 final_model = load_model("RandomForestRegressor")
+
 '''
 # Prediction
 some_data = train_set.iloc[:5]
@@ -299,6 +300,6 @@ def predict_input_user(data):
     
     row_label = [1]
     sample = pd.DataFrame(data=data,index=row_label)
-    sample_prepared = full_pipeline.transform(sample)
+    sample_prepared = full_pipeline.fit_transform(sample)
 
     return final_model.predict(sample_prepared)
