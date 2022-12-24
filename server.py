@@ -9,10 +9,7 @@ from router import router_main as rt
 
 app = FastAPI()
 
-origins = [
-    "http://localhost",
-    "http://localhost:4200",
-]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
