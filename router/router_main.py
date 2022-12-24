@@ -1,8 +1,8 @@
 from fastapi import APIRouter
 
 from router import CanHo_ChungCu_Train
-from router import Dat_Train
-from router import Nha_Train
+'''from router import Dat_Train
+from router import Nha_Train'''
 
 from Json import Data1 as data1
 from Json import Data2 as data2
@@ -60,6 +60,7 @@ async def getPredict1(data: data1.CanHo_Chungcu):
 
     return Predict_Result.tolist()[0]
 
+'''
 # Get predict of can ho - chung cu
 @router.post("/house/predict")
 async def getPredict2(data: data2.House):
@@ -135,3 +136,5 @@ async def getPredict3(data: data3.Plot):
     Predict_Result = Dat_Train.predict_input_user(_data)
 
     return Predict_Result.tolist()[0]
+
+'''
