@@ -227,7 +227,7 @@ class ColumnSelector(BaseEstimator, TransformerMixin):
     def __init__(self, feature_names):
         self.feature_names = feature_names
     def fit(self, dataframe, labels=None):
-        return self
+        return dataframe
     def transform(self, dataframe):
         return dataframe[self.feature_names].values 
 
