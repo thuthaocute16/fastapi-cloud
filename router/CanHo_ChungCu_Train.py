@@ -304,4 +304,4 @@ def predict_input_user(data):
 
         return final_model.predict(sample_prepared)
     except Exception as e:
-        return 8.15
+        return [8.15]
