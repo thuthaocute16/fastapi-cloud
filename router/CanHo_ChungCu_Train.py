@@ -189,20 +189,7 @@ class MyFeatureAdder(BaseEstimator, TransformerMixin):
             #concatenate np arrays
         return feature_values
 
-# 4.4.4 Pipeline for numerical features
-num_pipeline = Pipeline([
-    ('selector', ColumnSelector(num_feat_names)),
-    ('imputer', SimpleImputer(missing_values=np.nan, strategy="median", copy=True)), 
-    # copy=False: imputation will be done in-place 
-    ('attribs_adder', MyFeatureAdder(add_TONG_SO_PHONG = True)),
-    ('std_scaler', StandardScaler(with_mean=True, with_std=True, copy=True)) 
-    # Scale features to zero mean and unit variance
-    ])  
-
-# 4.4.5 Combine features transformed by two above pipelines
-full_pipeline = FeatureUnion(transformer_list=[
-    ("num_pipeline", num_pipeline),
-    ("cat_pipeline", cat_pipeline) ])
+# 4.4.4 Pipeline for numerical feature
 
 # 4.5 Run the pipeline to process training data           
 processed_train_set_val = full_pipeline.fit_transform(train_set)
@@ -230,6 +217,11 @@ grid_search.fit(processed_train_set_val, train_set_labels)
 
 final_model = grid_search.best_estimator_'''
 
+num_feat_names = ['Năm' , 'Diện tích - m2', 'Số tầng' , 'Số phòng ngủ' , 'Số toilet'] 
+# =list(train_set.select_dtypes(include=[np.number]))
+cat_feat_names = ['Tên chung cư' , 'Quận' , 'Phường' , 'Đường' , 'Hướng nhà' , 'Nội thất' , 'Pháp lý' , 'View' , 'Hướng ban công' , 'Đặc trưng'] 
+# =list(train_set.select_dtypes(exclude=[np.number])) 
+ 
 
 class ColumnSelector(BaseEstimator, TransformerMixin):
     def __init__(self, feature_names):
@@ -238,7 +230,45 @@ class ColumnSelector(BaseEstimator, TransformerMixin):
         return self
     def transform(self, dataframe):
         return dataframe[self.feature_names].values 
-        
+
+cat_pipeline = Pipeline([
+    ('selector', ColumnSelector(cat_feat_names)),
+    ('imputer', SimpleImputer(missing_values=np.nan, strategy="constant", fill_value = "NO INFO", copy=True)), # complete missing values. copy=False: imputation will be done in-place 
+    ('cat_encoder', OneHotEncoder(handle_unknown = 'ignore')) # convert categorical data into one-hot vectors
+    ])  
+
+class MyFeatureAdder(BaseEstimator, TransformerMixin):
+    def __init__(self, add_TONG_SO_PHONG = True): 
+        # MUST NO *args or **kargs
+        self.add_TONG_SO_PHONG = add_TONG_SO_PHONG
+    def fit(self, feature_values, labels = None):
+        return self  # nothing to do here
+    def transform(self, feature_values, labels = None):
+        if self.add_TONG_SO_PHONG:        
+            SO_PHONG_id, SO_TOILETS_id = 3, 4
+            # column indices in num_feat_names. can't use column names b/c the transformer SimpleImputer removed them
+            # NOTE: a transformer in a pipeline ALWAYS return dataframe.values (ie., NO header and row index)
+            
+            TONG_SO_PHONG = feature_values[:, SO_PHONG_id] + feature_values[:, SO_TOILETS_id]
+            feature_values = np.c_[feature_values, TONG_SO_PHONG] 
+            #concatenate np arrays
+        return feature_values
+
+num_pipeline = Pipeline([
+    ('selector', ColumnSelector(num_feat_names)),
+    ('imputer', SimpleImputer(missing_values=np.nan, strategy="median", copy=True)), 
+    # copy=False: imputation will be done in-place 
+    ('attribs_adder', MyFeatureAdder(add_TONG_SO_PHONG = True)),
+    ('std_scaler', StandardScaler(with_mean=True, with_std=True, copy=True)) 
+    # Scale features to zero mean and unit variance
+    ])  
+
+# 4.4.5 Combine features transformed by two above pipelines
+full_pipeline = FeatureUnion(transformer_list=[
+    ("num_pipeline", num_pipeline),
+    ("cat_pipeline", cat_pipeline) ])
+
+
 def store_model(model, model_name = ""):
     if model_name == "": 
         model_name = type(model).__name__
@@ -252,7 +282,6 @@ def load_model(model_name):
 
 #store_model(final_model)
 final_model = load_model("RandomForestRegressor")
-full_pipeline = joblib.load('models/full_pipeline.pkl')
 '''
 # Prediction
 some_data = train_set.iloc[:5]
