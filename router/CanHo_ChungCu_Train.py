@@ -276,7 +276,7 @@ def store_model(model, model_name = ""):
 def load_model(model_name):
     # Load objects into memory
     #del model
-    model = joblib.load('app/models/' + model_name + '_GridSearch_CV' + '_model.pkl')
+    model = joblib.load('models/' + model_name + '_GridSearch_CV' + '_model.pkl')
     #print(model)
     return model
 
