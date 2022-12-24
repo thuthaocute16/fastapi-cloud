@@ -300,6 +300,7 @@ def predict_input_user(data):
     
     row_label = [1]
     sample = pd.DataFrame(data=data,index=row_label)
-    sample_prepared = full_pipeline.transform(sample)
+    sample_prepared_1 = full_pipeline.fit(sample)
+    sample_prepared = full_pipeline.transform(sample_prepared_1)
 
     return final_model.predict(sample_prepared)
